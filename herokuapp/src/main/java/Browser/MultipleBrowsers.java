@@ -24,6 +24,8 @@ public class MultipleBrowsers {
         if(Type.equals("edge")){
             EdgeOptions options = new EdgeOptions();
             options.addArguments("--start-maximized");
+            options.addArguments("--headless");
+            System.out.println(options.getBrowserName());
             return new EdgeDriver(options) ;
         }
         return null ;

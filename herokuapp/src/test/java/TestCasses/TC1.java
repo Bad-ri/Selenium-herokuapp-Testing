@@ -11,6 +11,7 @@ public class TC1 {
        test.OpenBrowser();
        test.OpenWebsite();
        Thread.sleep(2000);
+       test.FirstTestCase();
        test.CloseBrowser();
     }
 }
