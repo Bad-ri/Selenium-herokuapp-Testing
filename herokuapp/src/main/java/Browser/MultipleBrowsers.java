@@ -31,14 +31,12 @@ public class MultipleBrowsers {
             EdgeOptions options = new EdgeOptions();
             options.addArguments("--start-maximized");
             options.addArguments("--headless");
-            System.out.println(options.getBrowserName());
             return new EdgeDriver(options) ;
         }
         else if(Type.equals("chrome")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--start-maximized");
             options.addArguments("--headless");
-            System.out.println(options.getBrowserName());
             return new ChromeDriver(options);
         }
         return null ;

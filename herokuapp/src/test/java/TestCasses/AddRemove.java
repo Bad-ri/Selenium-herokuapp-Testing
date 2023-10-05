@@ -11,7 +11,10 @@ public class AddRemove extends Base{
         this.OpenWebsite();
         Thread.sleep(2000);
         home.OpenAddRemovePage();
+        Thread.sleep(2000);
+        home.PageCheck();
+        home.AddItem();
+        home.CheckDeleteButton();
         this.CloseBrowser();
-
     }
 }
