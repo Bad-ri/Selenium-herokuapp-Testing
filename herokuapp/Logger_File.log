@@ -1,0 +1,10 @@
+Oct 05, 2023 9:38:36 PM Base.Base OpenBrowser
+INFO: open browser
+Oct 05, 2023 9:38:38 PM Base.Base OpenWebsite
+INFO: open website
+Oct 05, 2023 9:38:54 PM Pages.Home OpenAddRemovePage
+INFO: click on the page link
+Oct 05, 2023 9:38:55 PM Pages.Home OpenAddRemovePage
+INFO: https://the-internet.herokuapp.com/add_remove_elements/
+Oct 05, 2023 9:38:55 PM Base.Base CloseBrowser
+INFO: close browser

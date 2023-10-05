@@ -1,0 +1,17 @@
+package TestCasses;
+
+import Base.Base;
+import org.testng.annotations.Test;
+
+public class AddRemove extends Base{
+
+    @Test
+    public void AddRemove () throws InterruptedException {
+        this.OpenBrowser();
+        this.OpenWebsite();
+        Thread.sleep(2000);
+        home.OpenAddRemovePage();
+        this.CloseBrowser();
+
+    }
+}
